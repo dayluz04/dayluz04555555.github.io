@@ -8,24 +8,43 @@
     <title>Fitness GYM</title>
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/inicio.css">
+    <link rel="stylesheet" href="css/marquee.css">
 </head>
 
 <body>
     <header class="">
-        <img class="logo" width="256px" src="src/logo.png" alt="logo">
+        <img class="logo" width="256px" src="../src/logo.png" alt="logo">
         <nav>
             <ul class="nav__links">
-                <li><a href=".">Inicio</a></li>
-                <li><a href="#">Servicios</a></li>
-                <li><a href="#">Rutinas</a></li>
-                <li><a href="#">Entrenadores</a></li>
-                <li><a href="#">Quienes Somos</a></li>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="templates/servicios.html">Servicios</a></li>
+                <li><a href="templates/rutinas.html">Rutinas</a></li>
+                <li><a href="templates/trainers.html">Entrenadores</a></li>
+                <li><a href="templates/quienessomos.html">Quienes Somos</a></li>
             </ul>
         </nav>
-        <a href="./templates/contact.html" class="cta"><button>Contactanos</button></a>
+        <a href="templates/contact.html" class="cta"><button>Contactanos</button></a>
     </header>
     <div class="flex-container">
+        <div class="marquee running js-marquee">
+            <div class="marquee-inner">
+                <span>Fitness GYM</span>
+            </div>
+        </div>
+        <h1>Entrena con el mejor equipamiento</h1>
+        <img src="src/equip.jpg" alt="" width="100%">
+        <h1>Se orientado por profesionales</h1>
+        <img src="src/Diana.jpg" alt="" width="100%">
+        <h1>Mantente al dia con nuestros planes de entrenamiento</h1>
+        <img src="src/todo.jpg" alt="" width="100%">
     </div>
+
+
+    <div class="footer">
+        <p>Fitness GYM &copy; Todos los derechos reservados</p>
+        <a href="templates/contact.html" class="cta"><button>Contactanos</button></a>
+    </div>
+    <script src="js/marquee.js"></script>
 </body>
 
 </html>

@@ -29,13 +29,24 @@ button {
   text-decoration: none;
 }
 
-header {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  padding: 15px 10%;
+@media screen and (max-width: 600px) {
+  header {
+    display: block;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 15px 10%;
+  }
 }
 
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (min-width: 600px) {
+  header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 15px 10%;
+  }
+}
 .sticky {
   position: fixed;
   top: 0;
@@ -76,4 +87,15 @@ button {
 
 button:hover {
   background-color: rgba(0, 136, 169, 0);
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 100px;
+  width: 100%;
+  background-color: #24252a;
+  color: white;
+  text-align: center;
 }
