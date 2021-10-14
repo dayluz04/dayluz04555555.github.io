@@ -1,0 +1,3 @@
+Sitio web: 6 secciones con informacion.
+Contener: Imagenes, Marquesinas, Menu responsive, encabezado con su respectiva imagen, titulo, 
+logo, pie de pagina

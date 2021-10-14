@@ -1,0 +1,36 @@
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+/* Bottom left text */
+.bottom-left {
+  text-align: justify;
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+/* Top left text */
+.top-left {
+  text-align: justify;
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+/* Top right text */
+.top-right {
+  text-align: justify;
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+.bottom-right {
+  text-align: justify;
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
